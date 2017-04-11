@@ -42,6 +42,7 @@ public class CacheConfiguration {
             cm.createCache(com.github.ymarec.pronostics.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.github.ymarec.pronostics.domain.PersistentToken.class.getName(), jcacheConfiguration);
             cm.createCache(com.github.ymarec.pronostics.domain.User.class.getName() + ".persistentTokens", jcacheConfiguration);
+            cm.createCache(com.github.ymarec.pronostics.domain.Equipe.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
