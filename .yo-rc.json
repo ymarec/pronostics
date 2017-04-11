@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.github.ymarec.pronostics",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "4.2.0",
+    "baseName": "pronostics",
+    "packageName": "com.github.ymarec.pronostics",
+    "packageFolder": "com/github/ymarec/pronostics",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "rememberMeKey": "4f87533d4d13b85847e6229b3ff64cad91a86a7f",
+    "clientFramework": "angular2",
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr"
+    ]
+  }
+}
